@@ -1,0 +1,147 @@
+
+body{
+    background: url(.//images/bg-desktop.svg) no-repeat;
+    background-color: rgb(71, 38, 102);
+    color: #fff;
+    font-family: roboto;
+}
+
+.geral{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ .header{
+    margin: 20px;
+    padding: 50px;
+ }
+
+ .geral .imagem img{
+    height: 70vh; 
+    align-items: center;
+    padding: 0px 50px;
+ }
+
+ .geral .info h1{
+    font-size: 36px;
+    text-align: left;
+    font-weight: 700;
+ }
+ .geral .info p{
+    font-size: 23px;
+    font-weight: 400;
+    padding: 50px 0px 50px 10px;
+    text-align: left;
+    justify-content: center;
+ }
+
+ .geral .info .button{
+    font-size: 23px;
+    padding: 20px 60px;
+    border-radius: 50px;
+    color: rgb(71, 38, 102);
+    box-shadow: rgb(62, 39, 83) 5px  5px;
+    text-transform: uppercase;
+    transition: 0.6s;
+ }
+
+ .geral .info .button:hover{
+    background-color: rgb(224, 127, 195);
+    color: #fff;
+ }
+
+ .footer .social{
+    text-align: right;
+    margin-right: 10%;
+ }
+ .footer .social a{
+    border: 2px solid;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer .social a:hover{
+    color:  rgb(224, 127, 195);
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 425px){
+        .header{
+            margin: 0;
+            padding: 30px;
+        }
+    .header img{
+          color: black;
+          width: 200px;
+    }
+    .geral{
+        display:block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .geral .imagem img{
+        background: url(.//images/bg-mobile.svg);
+        height: 30%;
+    }
+     
+    .geral .info h1 {
+        margin-top: 10px; 
+        font-size: 25px;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .geral .info p{
+        text-align: center;
+    }
+    .footer .social{
+        text-align: center;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+@media (max-width:768px){
+   boby{
+    background-color: rgb(71, 38, 102);
+    background: none;
+    background: url(.//images/bg-mobile.svg) no-repeat;
+   }
+
+    .header{
+        margin: 0;
+        padding: 30px;
+    }
+.header img{
+      color: black;
+      width: 200px;
+}
+.geral{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.geral .imagem img{
+    
+    height: 30%;
+}
+ 
+.geral .info h1 {
+    margin-top: 10px; 
+    font-size: 25px;
+    padding: 0px 20px;
+    text-align: center;
+}
+.geral .info p{
+    text-align: center;
+}
+.footer .social{
+    text-align: center;
+    margin-right: 0;
+    margin-top: 30px;
+}
+}
