@@ -4,6 +4,7 @@ body{
     background-color: rgb(71, 38, 102);
     color: #fff;
     font-family: roboto;
+    background-size: cover;
 }
 
 .geral{
@@ -21,6 +22,9 @@ body{
     padding: 0px 50px;
  }
 
+ .geral .info{
+    padding: 40px;
+ }
  .geral .info h1{
     font-size: 36px;
     text-align: left;
@@ -49,11 +53,14 @@ body{
     color: #fff;
  }
 
- .footer .social{
+.social{
     text-align: right;
-    margin-right: 10%;
+    margin-top: -35px;
+    margin-right: 4%;
+    margin-left: 40px;
+    padding: 33px;
  }
- .footer .social a{
+.social a{
     border: 2px solid;
     border-radius: 50px;
     margin: 10px;
@@ -61,8 +68,10 @@ body{
     color: #fff;
     font-size: 20px;
 }
-
-.footer .social a:hover{
+.social img{
+    height: 16px;
+}
+.social a:hover{
     color:  rgb(224, 127, 195);
 }
 
@@ -96,11 +105,11 @@ body{
     .geral .info p{
         text-align: center;
     }
-    .footer .social{
+    .social{
         text-align: center;
-        margin-right: 0;
-        margin-top: 30px;
+        margin-left: 25px;
     }
+    
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
@@ -139,9 +148,9 @@ body{
 .geral .info p{
     text-align: center;
 }
-.footer .social{
+.social{
     text-align: center;
-    margin-right: 0;
-    margin-top: 30px;
+    margin-top: -30px;
+    align-items: center;
 }
 }
